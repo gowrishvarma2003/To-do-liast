@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.division{
+    margin-top: 24vh;
+    /* height: 100vh; */
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.todolist{
+    background: rgb(171, 165, 165);
+    width: 100%;
+    padding: 20px 200px 20px 10px;
+    font-size: 20px;
+}
+
+.input{
+    padding: 20px;
+}
+
+.input input{
+    padding: 5px 30px;
+}
+
+.add{
+    margin: 0px 110px;
+    padding: 8px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.clear{
+    margin: 10px 80px;
+    padding: 8px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.left{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
